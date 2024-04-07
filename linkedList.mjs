@@ -140,3 +140,5 @@ class LinkedList {
         return nodeToRemove;
     }
 }
+
+export default LinkedList;
