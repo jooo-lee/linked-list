@@ -111,8 +111,7 @@ class LinkedList {
             outputStr += `( ${tmp.value} ) -> `;
             tmp = tmp.next;
         }
-        outputStr += 'null';
-        return outputStr;
+        return (outputStr += 'null');
     }
 
     // Inserts a new node with the provided value at the given index
