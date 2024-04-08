@@ -47,7 +47,7 @@ class LinkedList {
         return tmp;
     }
 
-    // Returns the node at the given index (zero-based)
+    // Returns the node at the given index (0-based)
     at(index) {
         if (index < 0 || index > this.size() - 1) {
             throw new Error('Index out of bounds!');
@@ -87,7 +87,7 @@ class LinkedList {
         return false;
     }
 
-    // Returns the first zero-based index of the node containing value, or null if not found
+    // Returns the first 0-based index of the node containing value, or null if not found
     find(value) {
         let index = 0;
         let tmp = this.head;
